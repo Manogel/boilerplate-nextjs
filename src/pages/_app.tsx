@@ -8,6 +8,7 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Nextjs - Boilerplate</title>
+        <link rel="manifest" href="/manifest.json" />
         <link rel="shortcut icon" href="/img/icon-512.png" />
         <link rel="apple-touch-icon" href="/img/icon-512.png" />
         <meta
